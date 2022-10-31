@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Compagnie" version="4">
+  <OBJECT>
+    <ID name="Compagnie" mc="Standard.Package" uid="608033ad-d734-4925-8a2f-347d8f51bef7"/>
+    <PID name="ClassDomaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Compagnie]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Compagnie" mc="Standard.Class" uid="acde0b8e-4714-4244-bcf1-66d37b183f97"/>
+        <COMPID name="Ville" mc="Standard.Class" uid="ad9b0c48-0edc-4381-8294-bbde284b1681"/>
+        <COMPID name="Pays" mc="Standard.Class" uid="9d1c5d7c-8e98-430b-9555-2a4995857ebe"/>
+        <COMPID name="Status" mc="Standard.Class" uid="760ed854-4248-4830-9c5c-d4df04858750"/>
+        <COMPID name="StatusCompagnie" mc="Standard.Class" uid="cd7d8239-2253-4520-8378-da62dac1d439"/>
+        <COMPID name="FamilleStatus" mc="Standard.Class" uid="7c371c27-ae86-44fb-bc84-16a6cf6ea3e3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="GestionCompagnie" mc="Standard.ClassDiagram" uid="945e878b-d3ab-4d21-a512-9f258368a127"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
