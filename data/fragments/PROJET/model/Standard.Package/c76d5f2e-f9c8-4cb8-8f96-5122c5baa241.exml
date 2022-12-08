@@ -47,11 +47,18 @@
         <COMPID name="AccepterUneReservationBillet" mc="Standard.UseCase" uid="d9150366-1786-4c35-9a82-c8e02d1aff5f"/>
         <COMPID name="RefuserUneReservationBillet" mc="Standard.UseCase" uid="a705b36b-f1cd-4309-8cb9-6ea77b789000"/>
         <COMPID name="Voyageur" mc="Standard.Actor" uid="ff90b085-e548-4772-9932-8598d50f5ac0"/>
+        <COMPID name="CreerModifierUneOffreVoyage" mc="Standard.UseCase" uid="dec5ee78-de6e-4b26-af81-d3877d97cc5e"/>
+        <COMPID name="ValiderUneOffreVoyage" mc="Standard.UseCase" uid="b0049e4f-1c5d-4291-bafc-94e4befb6308"/>
+        <COMPID name="SuppresionUneOffreVoyage" mc="Standard.UseCase" uid="c6af5ab1-edc8-437d-b197-cae1e93f2c76"/>
+        <COMPID name="Admin compagnie" mc="Standard.Actor" uid="ed0b32df-07a5-4905-87d9-1722d03b3b53"/>
+        <COMPID name="CreerModiferValeurCaracteristiqueOffreVoyage" mc="Standard.UseCase" uid="ed92e580-e4d1-402a-a839-4745084999f5"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="GestionCompagnie" mc="Standard.UseCaseDiagram" uid="2af8c40d-9582-471d-b6d8-19d119962f51"/>
         <COMPID name="GestionUtilisateurs" mc="Standard.UseCaseDiagram" uid="91ade73f-b448-464a-85b5-021858e3c1f5"/>
-        <COMPID name="GestionReservation" mc="Standard.UseCaseDiagram" uid="13b34208-3245-47ac-9410-6b6c8f924bfd"/>
+        <COMPID name="GestionReservationBillet" mc="Standard.UseCaseDiagram" uid="13b34208-3245-47ac-9410-6b6c8f924bfd"/>
+        <COMPID name="GestionOffreVoyage" mc="Standard.UseCaseDiagram" uid="6141cd3e-3456-4289-bac0-98d56d434e4c"/>
+        <COMPID name="GestionValeurCaracteristiqueOffreVoyage" mc="Standard.UseCaseDiagram" uid="71238f41-bfa8-4e72-8855-59a8f3867363"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

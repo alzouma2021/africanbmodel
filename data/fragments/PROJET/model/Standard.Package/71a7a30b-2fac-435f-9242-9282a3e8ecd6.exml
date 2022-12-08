@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ClassBusiness" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Business" version="4">
   <OBJECT>
-    <ID name="ClassBusiness" mc="Standard.Package" uid="71a7a30b-2fac-435f-9242-9282a3e8ecd6"/>
+    <ID name="Business" mc="Standard.Package" uid="71a7a30b-2fac-435f-9242-9282a3e8ecd6"/>
     <PID name="Modele" mc="Standard.Package" uid="73b78527-e522-4796-9028-8f002c55c598"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ClassBusiness]]></ATT>
+      <ATT name="Name"><![CDATA[Business]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
