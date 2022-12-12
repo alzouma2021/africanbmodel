@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Voyage" version="4">
   <OBJECT>
     <ID name="Voyage" mc="Standard.Package" uid="0aa09cd6-b6eb-4719-8a45-af54f07257c8"/>
-    <PID name="ClassDomaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+    <PID name="Domaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -25,7 +25,8 @@
         <COMPID name="ReferenceFamille" mc="Standard.Class" uid="3f2be1ad-1f81-412a-9ef9-1c2a06518907"/>
         <COMPID name="VilleEscale" mc="Standard.Class" uid="844cf104-8673-4632-b226-3b4772fe48e8"/>
         <COMPID name="PrixOffreVoyage" mc="Standard.Class" uid="3db023ff-7004-497c-b6aa-49bf0eb47c10"/>
-        <COMPID name="Programme" mc="Standard.Class" uid="5606e680-7c78-4ada-a8bc-dd8c6759389c"/>
+        <COMPID name="jourSemaine" mc="Standard.Class" uid="5606e680-7c78-4ada-a8bc-dd8c6759389c"/>
+        <COMPID name="Programme" mc="Standard.Class" uid="23fd45ea-bc96-44b1-930e-4cca1289aec5"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="OffreVoyage" mc="Standard.ClassDiagram" uid="767edd9c-1f3b-428c-ac51-e790ec4fdadb"/>

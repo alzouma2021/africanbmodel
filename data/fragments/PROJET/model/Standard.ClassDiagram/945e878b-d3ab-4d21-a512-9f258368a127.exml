@@ -23,7 +23,6 @@
           <ID name="description" mc="Standard.Attribute" uid="db046805-1695-45d5-8378-4cd46ccca337"/>
         </REFOBJ>
         <ID name="Ville" mc="Standard.Class" uid="ad9b0c48-0edc-4381-8294-bbde284b1681"/>
-        <ID name="Pays" mc="Standard.Class" uid="9d1c5d7c-8e98-430b-9555-2a4995857ebe"/>
         <REFOBJ>
           <ID name="estActif" mc="Standard.Attribute" uid="dd45f7ab-4ac3-439e-a0ac-a735b272e5cb"/>
         </REFOBJ>
@@ -70,21 +69,6 @@
         </REFOBJ>
         <REFOBJ>
           <ID name="raisonSociale" mc="Standard.Attribute" uid="d7daabd1-fe4c-466f-b74d-d1525e8baef6"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="id" mc="Standard.Attribute" uid="cff81591-d909-44f3-9ce8-51c85163b0d1"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="code" mc="Standard.Attribute" uid="b1ac4af4-3e17-43c4-95cd-2a915e6afa3d"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="nom" mc="Standard.Attribute" uid="25319695-a84b-4caf-a99f-9a14d4169842"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="a423be7c-f75f-4dfb-8e2c-3517350c81a0"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="pays" mc="Standard.AssociationEnd" uid="fe2b071b-ddeb-4abe-a812-6044f7dcbd97"/>
         </REFOBJ>
         <REFOBJ>
           <ID name="ville" mc="Standard.AssociationEnd" uid="7bb8808e-4868-4abb-9524-7c404fbee5c9"/>
