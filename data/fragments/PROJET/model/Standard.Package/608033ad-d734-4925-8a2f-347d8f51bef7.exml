@@ -15,10 +15,12 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Compagnie" mc="Standard.Class" uid="acde0b8e-4714-4244-bcf1-66d37b183f97"/>
-        <COMPID name="Ville" mc="Standard.Class" uid="ad9b0c48-0edc-4381-8294-bbde284b1681"/>
         <COMPID name="Status" mc="Standard.Class" uid="760ed854-4248-4830-9c5c-d4df04858750"/>
         <COMPID name="StatusCompagnie" mc="Standard.Class" uid="cd7d8239-2253-4520-8378-da62dac1d439"/>
         <COMPID name="FamilleStatus" mc="Standard.Class" uid="7c371c27-ae86-44fb-bc84-16a6cf6ea3e3"/>
+        <COMPID name="Ville" mc="Standard.Class" uid="b08183df-7fbf-470a-98c0-aff6ba302554"/>
+        <COMPID name="Pays" mc="Standard.Class" uid="2ec335b5-7cab-4add-92aa-afd01631f77f"/>
+        <COMPID name="CompagnieBagage" mc="Standard.Class" uid="4eaee9e1-4acd-4efc-81c5-3d8c584bfab6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="GestionCompagnie" mc="Standard.ClassDiagram" uid="945e878b-d3ab-4d21-a512-9f258368a127"/>

@@ -377,7 +377,7 @@ Entre autres:
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ville" mc="Standard.AssociationEnd" uid="7bb8808e-4868-4abb-9524-7c404fbee5c9"/>
+          <ID name="ville" mc="Standard.AssociationEnd" uid="6975a821-204c-4000-bb7e-b1a8de7875c7"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -395,11 +395,11 @@ Entre autres:
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Ville" mc="Standard.Class" uid="ad9b0c48-0edc-4381-8294-bbde284b1681"/>
+              <ID name="Ville" mc="Standard.Class" uid="b08183df-7fbf-470a-98c0-aff6ba302554"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="1de78534-d284-4166-b8e0-ae30756d3605"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="cad60e2f-5e4e-4af7-a7d9-f592bd21b29c"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -417,11 +417,11 @@ Entre autres:
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="ville" mc="Standard.AssociationEnd" uid="7bb8808e-4868-4abb-9524-7c404fbee5c9"/>
+                    <COMPID name="ville" mc="Standard.AssociationEnd" uid="6975a821-204c-4000-bb7e-b1a8de7875c7"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="10aa8876-6e07-42e5-a83c-cf7015e6aa82"/>
+                      <ID name="" mc="Standard.Association" uid="aca61743-b268-4501-b27e-d63590928bce"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -433,10 +433,13 @@ Entre autres:
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="10aa8876-6e07-42e5-a83c-cf7015e6aa82"/>
+              <COMPID name="" mc="Standard.Association" uid="aca61743-b268-4501-b27e-d63590928bce"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="faef9896-137a-4c92-97ba-b571fd55a972"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

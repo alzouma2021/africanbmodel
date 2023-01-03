@@ -196,7 +196,7 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="villeDepart" mc="Standard.AssociationEnd" uid="0e71e3dc-a526-49a9-96be-5a62920d25bf"/>
+          <ID name="villeDepart" mc="Standard.AssociationEnd" uid="9a0f6b6e-3cee-4a60-a8e4-49366e961677"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -214,11 +214,11 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Ville" mc="Standard.Class" uid="ad9b0c48-0edc-4381-8294-bbde284b1681"/>
+              <ID name="Ville" mc="Standard.Class" uid="b08183df-7fbf-470a-98c0-aff6ba302554"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="9fd781f3-9038-47bf-802c-26233835c846"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="20297a5f-d2cd-40f8-a2a8-256995e96500"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -236,11 +236,11 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="villeDepart" mc="Standard.AssociationEnd" uid="0e71e3dc-a526-49a9-96be-5a62920d25bf"/>
+                    <COMPID name="villeDepart" mc="Standard.AssociationEnd" uid="9a0f6b6e-3cee-4a60-a8e4-49366e961677"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="6e44a034-b3ab-4e15-a502-34ba91fcdf18"/>
+                      <ID name="" mc="Standard.Association" uid="7e20deea-395d-4ff8-a25f-6aace5a129be"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -252,12 +252,12 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="6e44a034-b3ab-4e15-a502-34ba91fcdf18"/>
+              <COMPID name="" mc="Standard.Association" uid="7e20deea-395d-4ff8-a25f-6aace5a129be"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="villeDestination" mc="Standard.AssociationEnd" uid="3ce73c3b-2362-4a3b-ac31-63abbabf4b4f"/>
+          <ID name="villeDestination" mc="Standard.AssociationEnd" uid="e908a874-29a8-4693-98b8-4ef2f87f04da"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -275,11 +275,11 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Ville" mc="Standard.Class" uid="ad9b0c48-0edc-4381-8294-bbde284b1681"/>
+              <ID name="Ville" mc="Standard.Class" uid="b08183df-7fbf-470a-98c0-aff6ba302554"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="900e0d79-a98b-4f2e-b399-337f59c7b3dc"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="a39d664b-9051-42df-9298-4e5c537f32b2"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -297,11 +297,11 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="villeDestination" mc="Standard.AssociationEnd" uid="3ce73c3b-2362-4a3b-ac31-63abbabf4b4f"/>
+                    <COMPID name="villeDestination" mc="Standard.AssociationEnd" uid="e908a874-29a8-4693-98b8-4ef2f87f04da"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="0d8b2714-b860-49b9-94cf-cb213b8a80e0"/>
+                      <ID name="" mc="Standard.Association" uid="5af12f74-3161-4bf4-8911-8f4164fd97bd"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -313,12 +313,12 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="0d8b2714-b860-49b9-94cf-cb213b8a80e0"/>
+              <COMPID name="" mc="Standard.Association" uid="5af12f74-3161-4bf4-8911-8f4164fd97bd"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="6594c9cd-8a2e-46d5-b8b3-250789c43b22"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="2145bbf5-d814-4f5c-9e5d-425e7337571b"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -335,122 +335,35 @@ Si c'est une offre nationale alors automatiquement toutes les villes de la côte
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Ville" mc="Standard.Class" uid="ad9b0c48-0edc-4381-8294-bbde284b1681"/>
-            </LINK>
             <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="" mc="Standard.AssociationEnd" uid="6732b785-3a29-4485-beb6-92da39f07f47"/>
+              </REFOBJ>
+            </COMP>
+            <COMP relation="Association">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="3d83c64f-513e-497b-a60f-402c1c95536d"/>
+                <ID name="" mc="Standard.Association" uid="666061b3-e24e-43c6-acf9-cac60eb50281"/>
                 <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="6594c9cd-8a2e-46d5-b8b3-250789c43b22"/>
-                  </COMP>
-                  <COMP relation="Association">
+                  <COMP relation="LinkToClass">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="95e83084-0a96-413d-ba95-670dfde1db25"/>
+                      <ID name="ClassAssociation" mc="Standard.ClassAssociation" uid="8121c789-8fea-4867-82c4-1ac699b3491c"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
+                        <ATT name="Name"><![CDATA[ClassAssociation]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
-                        <COMP relation="LinkToClass">
-                          <OBJECT>
-                            <ID name="ClassAssociation" mc="Standard.ClassAssociation" uid="bd1b4bba-07a0-4364-8b07-eaa5e6bbc03b"/>
-                            <ATTRIBUTES>
-                              <ATT name="Name"><![CDATA[ClassAssociation]]></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES>
-                              <LINK relation="ClassPart">
-                                <ID name="VilleEscale" mc="Standard.Class" uid="844cf104-8673-4632-b226-3b4772fe48e8"/>
-                              </LINK>
-                            </DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
+                        <LINK relation="ClassPart">
+                          <ID name="VilleEscale" mc="Standard.Class" uid="844cf104-8673-4632-b226-3b4772fe48e8"/>
+                        </LINK>
                       </DEPENDENCIES>
                     </OBJECT>
                   </COMP>
                 </DEPENDENCIES>
               </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="95e83084-0a96-413d-ba95-670dfde1db25"/>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="prixVoyage" mc="Standard.AssociationEnd" uid="dc92d780-8f4b-45a2-87fa-6a8d840b28f2"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[prixVoyage]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="PrixOffreVoyage" mc="Standard.Class" uid="3db023ff-7004-497c-b6aa-49bf0eb47c10"/>
-            </LINK>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="86624b9c-5d73-409b-b1d9-240344ad5cca"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="prixVoyage" mc="Standard.AssociationEnd" uid="dc92d780-8f4b-45a2-87fa-6a8d840b28f2"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="0b88af35-9ed6-4065-ab32-e374a251fd90"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="0b88af35-9ed6-4065-ab32-e374a251fd90"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
