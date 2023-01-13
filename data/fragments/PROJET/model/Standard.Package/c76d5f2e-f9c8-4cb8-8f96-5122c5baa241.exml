@@ -50,8 +50,14 @@
         <COMPID name="CreerModifierUneOffreVoyage" mc="Standard.UseCase" uid="dec5ee78-de6e-4b26-af81-d3877d97cc5e"/>
         <COMPID name="ValiderUneOffreVoyage" mc="Standard.UseCase" uid="b0049e4f-1c5d-4291-bafc-94e4befb6308"/>
         <COMPID name="SuppresionUneOffreVoyage" mc="Standard.UseCase" uid="c6af5ab1-edc8-437d-b197-cae1e93f2c76"/>
-        <COMPID name="Admin compagnie" mc="Standard.Actor" uid="ed0b32df-07a5-4905-87d9-1722d03b3b53"/>
+        <COMPID name="Compagnie" mc="Standard.Actor" uid="ed0b32df-07a5-4905-87d9-1722d03b3b53"/>
         <COMPID name="CreerModiferValeurCaracteristiqueOffreVoyage" mc="Standard.UseCase" uid="ed92e580-e4d1-402a-a839-4745084999f5"/>
+        <COMPID name="CreerTypeBagage" mc="Standard.UseCase" uid="a6803ff9-ed50-47ae-9c8f-b6520d335758"/>
+        <COMPID name="ModifierTypeBagage" mc="Standard.UseCase" uid="c4aea678-2508-4e3a-97a0-2eb77389b8c5"/>
+        <COMPID name="SupprimerTypeBagage" mc="Standard.UseCase" uid="da8350fc-fbfa-4abc-a7ab-6122b0d321f5"/>
+        <COMPID name="CreerModifierPrixOffreVoyage" mc="Standard.UseCase" uid="dc11ba01-5fc0-41ca-8622-0b8a874d6f77"/>
+        <COMPID name="CreerModifierJourSemaine" mc="Standard.UseCase" uid="a2fad7da-e1fa-4db8-9ffa-9afc10024e3c"/>
+        <COMPID name="Programme" mc="Standard.UseCase" uid="6201b80b-70b9-45e7-aabf-98e7e2f26c20"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="GestionCompagnie" mc="Standard.UseCaseDiagram" uid="2af8c40d-9582-471d-b6d8-19d119962f51"/>
