@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Programme" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gare" version="4">
   <OBJECT>
-    <ID name="Programme" mc="Standard.Class" uid="23fd45ea-bc96-44b1-930e-4cca1289aec5"/>
-    <PID name="Voyage" mc="Standard.Package" uid="0aa09cd6-b6eb-4719-8a45-af54f07257c8"/>
+    <ID name="Gare" mc="Standard.Class" uid="1c099eaf-c1b3-4631-b7dd-4dd082ec6225"/>
+    <PID name="Compagnie" mc="Standard.Package" uid="608033ad-d734-4925-8a2f-347d8f51bef7"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Programme]]></ATT>
+      <ATT name="Name"><![CDATA[Gare]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="id" mc="Standard.Attribute" uid="bc5ea89d-31e7-4b27-b160-902cde145a74"/>
+          <ID name="id" mc="Standard.Attribute" uid="25409883-e74c-4ac0-a732-ecc06b65e143"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -41,7 +41,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="designation" mc="Standard.Attribute" uid="cb1232bb-a58d-4f7d-a31a-86678eaddf4c"/>
+          <ID name="designation" mc="Standard.Attribute" uid="1180c61c-dc57-4bd8-972d-7158a749c992"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -65,7 +65,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="description" mc="Standard.Attribute" uid="4707154b-c8fa-4a12-950a-9e6f28726c43"/>
+          <ID name="description" mc="Standard.Attribute" uid="17abc0f9-acb1-4339-9437-e1f2ec8a1fbb"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -89,7 +89,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="dateDepart" mc="Standard.Attribute" uid="7c204b19-0eba-482d-972b-42b53e6c75bc"/>
+          <ID name="positionGeographique" mc="Standard.Attribute" uid="2c340ecc-34d3-49a1-b4be-038157d475a2"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -103,47 +103,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[dateDepart]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
-            </LINK>
-            <COMP relation="Descriptor">
-              <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="f832843a-cb2a-4456-87fc-0cca25a8cbc7"/>
-                <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[Cette propriété est de type de]]></ATT>
-                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Model">
-                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="heureDepart" mc="Standard.Attribute" uid="d0d79729-aca9-4d7a-a357-0482fcdd4b74"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[heureDepart]]></ATT>
+            <ATT name="Name"><![CDATA[positionGeographique]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -153,7 +113,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="dateArrivee" mc="Standard.Attribute" uid="d64281f5-69d6-43d7-a730-384f3a0fe474"/>
+          <ID name="telephone1" mc="Standard.Attribute" uid="46c29f3f-36b2-40bf-983b-43569b7c0ed5"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -167,7 +127,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[dateArrivee]]></ATT>
+            <ATT name="Name"><![CDATA[telephone1]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -177,7 +137,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="heureArrivee" mc="Standard.Attribute" uid="39ee0c12-8a32-4277-a184-21342967fbf4"/>
+          <ID name="telephone2" mc="Standard.Attribute" uid="9fc30724-5467-44a3-9a35-3f5a76704582"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -191,7 +151,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[heureArrivee]]></ATT>
+            <ATT name="Name"><![CDATA[telephone2]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -201,7 +161,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="nombreDePlace" mc="Standard.Attribute" uid="f54db414-a67c-4e16-bf4a-5a70d36541c0"/>
+          <ID name="email" mc="Standard.Attribute" uid="62dc79fd-6c56-4342-a246-8ae576943ced"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -215,41 +175,19 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[nombreDePlace]]></ATT>
+            <ATT name="Name"><![CDATA[email]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
-            <COMP relation="Descriptor">
-              <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="202a50b0-5bd2-47be-91d2-8f19d4433e6a"/>
-                <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[Cette propriété définit le nombre de places possible pour une offre de voyage programmée.
-
-Une réservation de billet de voyage est effectuée en fonction du nombre de place.C'est à dire:
-Si le nombre de billet reservé correspond au nombre de places possible alors aucune réseravtion,sera acceptée pour cette offre programmée.
-
-
-]]></ATT>
-                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Model">
-                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="jourSemaine" mc="Standard.AssociationEnd" uid="95ff4cd7-a124-41b0-a003-b517b3df4d6c"/>
+          <ID name="compagnie" mc="Standard.AssociationEnd" uid="92511ca0-d793-4e24-aefe-daa437eb3908"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -262,16 +200,16 @@ Si le nombre de billet reservé correspond au nombre de places possible alors au
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[jourSemaine]]></ATT>
+            <ATT name="Name"><![CDATA[compagnie]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="jourSemaine" mc="Standard.Class" uid="5606e680-7c78-4ada-a8bc-dd8c6759389c"/>
+              <ID name="Compagnie" mc="Standard.Class" uid="acde0b8e-4714-4244-bcf1-66d37b183f97"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="77718f61-7eb9-4fa3-ae03-75b6e7f14253"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="c070594d-e02f-4ae9-aaeb-ee9addf614b1"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -289,11 +227,11 @@ Si le nombre de billet reservé correspond au nombre de places possible alors au
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="jourSemaine" mc="Standard.AssociationEnd" uid="95ff4cd7-a124-41b0-a003-b517b3df4d6c"/>
+                    <COMPID name="compagnie" mc="Standard.AssociationEnd" uid="92511ca0-d793-4e24-aefe-daa437eb3908"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="ee383984-c8cf-4227-a87c-46e06a73e7c5"/>
+                      <ID name="" mc="Standard.Association" uid="82467d79-ffd6-404f-b43f-796438b1aadf"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -305,7 +243,7 @@ Si le nombre de billet reservé correspond au nombre de places possible alors au
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="ee383984-c8cf-4227-a87c-46e06a73e7c5"/>
+              <COMPID name="" mc="Standard.Association" uid="82467d79-ffd6-404f-b43f-796438b1aadf"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

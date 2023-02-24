@@ -58,6 +58,12 @@
         <COMPID name="CreerModifierPrixOffreVoyage" mc="Standard.UseCase" uid="dc11ba01-5fc0-41ca-8622-0b8a874d6f77"/>
         <COMPID name="CreerModifierJourSemaine" mc="Standard.UseCase" uid="a2fad7da-e1fa-4db8-9ffa-9afc10024e3c"/>
         <COMPID name="Programme" mc="Standard.UseCase" uid="6201b80b-70b9-45e7-aabf-98e7e2f26c20"/>
+        <COMPID name="CreerUnAbonnement" mc="Standard.UseCase" uid="76311ade-6e0a-41b5-b417-f876030459f4"/>
+        <COMPID name="ModifierUnAbonnement" mc="Standard.UseCase" uid="d9c4a424-0ac2-460c-9f3f-e1afa0ef1bf7"/>
+        <COMPID name="SupprimerUnAbonnement" mc="Standard.UseCase" uid="57139a48-0aed-4243-a363-88c70d097af5"/>
+        <COMPID name="Compagnie" mc="Standard.Actor" uid="5b267618-5756-4390-b225-638c16c3a32d"/>
+        <COMPID name="CreerModifierUnModePaiement" mc="Standard.UseCase" uid="e29f78d5-71e2-460c-899f-92fc182d040e"/>
+        <COMPID name="SupprimerUnModePaiement" mc="Standard.UseCase" uid="3ba11412-8db1-4ec6-8269-528e25f1509d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="GestionCompagnie" mc="Standard.UseCaseDiagram" uid="2af8c40d-9582-471d-b6d8-19d119962f51"/>
@@ -65,6 +71,8 @@
         <COMPID name="GestionReservationBillet" mc="Standard.UseCaseDiagram" uid="13b34208-3245-47ac-9410-6b6c8f924bfd"/>
         <COMPID name="GestionOffreVoyage" mc="Standard.UseCaseDiagram" uid="6141cd3e-3456-4289-bac0-98d56d434e4c"/>
         <COMPID name="GestionValeurCaracteristiqueOffreVoyage" mc="Standard.UseCaseDiagram" uid="71238f41-bfa8-4e72-8855-59a8f3867363"/>
+        <COMPID name="GestionAbonnement" mc="Standard.UseCaseDiagram" uid="25e1d60e-21ef-49d4-af06-bd0c5b943d57"/>
+        <COMPID name="GestionModePaiement" mc="Standard.UseCaseDiagram" uid="bfc62377-b74d-4484-a423-48386144f662"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
