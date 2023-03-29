@@ -31,6 +31,7 @@
         <COMPID name="MTNMoney" mc="Standard.Class" uid="862ac73c-67ea-40c1-b33f-83b1a9d1f1f8"/>
         <COMPID name="EnEspece" mc="Standard.Class" uid="8c6101ed-0042-46c7-b6a9-c7345e1d88a2"/>
         <COMPID name="Gare" mc="Standard.Class" uid="1c099eaf-c1b3-4631-b7dd-4dd082ec6225"/>
+        <COMPID name="CompagnieAttestionTransport" mc="Standard.Class" uid="f55feeee-0178-4089-bcd3-1d8e8b249f64"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="GestionCompagnie" mc="Standard.ClassDiagram" uid="945e878b-d3ab-4d21-a512-9f258368a127"/>

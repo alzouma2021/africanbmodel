@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProprieteOffreVoyage" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CompagnieAttestionTransport" version="4">
   <OBJECT>
-    <ID name="ProprieteOffreVoyage" mc="Standard.Class" uid="7559b4a1-62dc-4c88-ae2a-cbff17c457ef"/>
-    <PID name="Voyage" mc="Standard.Package" uid="0aa09cd6-b6eb-4719-8a45-af54f07257c8"/>
+    <ID name="CompagnieAttestionTransport" mc="Standard.Class" uid="f55feeee-0178-4089-bcd3-1d8e8b249f64"/>
+    <PID name="Compagnie" mc="Standard.Package" uid="608033ad-d734-4925-8a2f-347d8f51bef7"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ProprieteOffreVoyage]]></ATT>
+      <ATT name="Name"><![CDATA[CompagnieAttestionTransport]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="id" mc="Standard.Attribute" uid="bc5d0238-e920-4893-b8fb-800c93cb923a"/>
+          <ID name="id" mc="Standard.Attribute" uid="60c47df9-6245-44c3-b6b2-b76d4d4b4d57"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -28,7 +28,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[id]]></ATT>
@@ -36,12 +36,12 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <FOREIGNID name="long" mc="Standard.DataType" uid="00000004-0000-0011-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="designation" mc="Standard.Attribute" uid="64a90d12-ee99-479f-9ad9-99b1cf162349"/>
+          <ID name="compagnieTransport" mc="Standard.Attribute" uid="088a3e4f-711e-45e3-8a74-ef4c07fbadb5"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -52,20 +52,20 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[designation]]></ATT>
+            <ATT name="Name"><![CDATA[compagnieTransport]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <ID name="Compagnie" mc="Standard.Class" uid="acde0b8e-4714-4244-bcf1-66d37b183f97"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="description" mc="Standard.Attribute" uid="ac76f1b9-d9a1-48d5-b436-e562ce7175d2"/>
+          <ID name="attestationCompagnie" mc="Standard.Attribute" uid="7fc9bb67-3858-4a6e-bf9a-aed1e55fc8e4"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -76,39 +76,15 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[description]]></ATT>
+            <ATT name="Name"><![CDATA[attestationCompagnie]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="estObligatoire" mc="Standard.Attribute" uid="4499eb51-d8e7-4300-a6d7-dd0cd72c378e"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[estObligatoire]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+              <ID name="Document" mc="Standard.Class" uid="be5f379d-7d82-4394-b812-7c685fe3fe89"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -82,27 +82,9 @@
         <REFOBJ>
           <ID name="taux" mc="Standard.Attribute" uid="5ca5f2f8-64d0-41c4-8771-4ca4874819b1"/>
         </REFOBJ>
-        <REFOBJ>
-          <ID name="modeAbonnement" mc="Standard.AssociationEnd" uid="f779fa49-4f8c-4ffb-96dd-eb8d1a7c9bac"/>
-        </REFOBJ>
+        <FOREIGNID name="modeAbonnement" mc="Standard.AssociationEnd" uid="f779fa49-4f8c-4ffb-96dd-eb8d1a7c9bac"/>
         <REFOBJ>
           <ID name="" mc="Standard.AssociationEnd" uid="e5e9bc03-8b32-4837-94e9-8504d6f9ef5b"/>
-        </REFOBJ>
-        <ID name="Reference" mc="Standard.Class" uid="6bdce052-0cb4-4a59-a369-562b14bf7114"/>
-        <REFOBJ>
-          <ID name="description" mc="Standard.Attribute" uid="a95f6da4-f978-48a1-a8cc-b2956c13090f"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="id" mc="Standard.Attribute" uid="096e20ae-3f32-455c-ba03-3717f5a3a928"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="designation" mc="Standard.Attribute" uid="b24440cb-315c-4420-9d69-1991921452ed"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="a9b2f88a-101f-4c1c-a7cd-3ca7197cedc5"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="typeModeAbonnement" mc="Standard.AssociationEnd" uid="eacdfcb5-36b6-47e2-bc9a-819a8d35decb"/>
         </REFOBJ>
       </LINK>
       <COMP relation="Descriptor">

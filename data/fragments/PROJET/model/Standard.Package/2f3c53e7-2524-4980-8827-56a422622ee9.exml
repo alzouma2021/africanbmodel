@@ -15,7 +15,6 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Document" mc="Standard.Class" uid="be5f379d-7d82-4394-b812-7c685fe3fe89"/>
-        <COMPID name="Format" mc="Standard.Class" uid="30a3efbf-e50b-431f-a3c2-779fdb8f21bc"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="GestionDocument" mc="Standard.ClassDiagram" uid="fb022aba-653d-4246-a0b6-c9fe2f96acd8"/>

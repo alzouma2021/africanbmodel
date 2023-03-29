@@ -82,11 +82,7 @@
             <ATT name="Name"><![CDATA[typeBagage]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <ID name="Reference" mc="Standard.Class" uid="6bdce052-0cb4-4a59-a369-562b14bf7114"/>
-            </LINK>
-          </DEPENDENCIES>
+          <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="prix" mc="Standard.Attribute" uid="86fa0402-21db-44a9-8ac3-8f0c095c73cd"/>

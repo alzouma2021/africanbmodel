@@ -21,7 +21,6 @@
         <COMPID name="ValeurCaracteristiqueOffreVoyageBoolean" mc="Standard.Class" uid="35df1a6a-5135-4352-81be-8afbb97d6f8d"/>
         <COMPID name="ValeurCaracteristiqueOffreVoyageDouble" mc="Standard.Class" uid="f4aaf40b-3c13-48f0-ba02-c44678e70541"/>
         <COMPID name="ProprieteOffreVoyage" mc="Standard.Class" uid="7559b4a1-62dc-4c88-ae2a-cbff17c457ef"/>
-        <COMPID name="Reference" mc="Standard.Class" uid="6bdce052-0cb4-4a59-a369-562b14bf7114"/>
         <COMPID name="ReferenceFamille" mc="Standard.Class" uid="3f2be1ad-1f81-412a-9ef9-1c2a06518907"/>
         <COMPID name="VilleEscale" mc="Standard.Class" uid="844cf104-8673-4632-b226-3b4772fe48e8"/>
         <COMPID name="PrixOffreVoyage" mc="Standard.Class" uid="3db023ff-7004-497c-b6aa-49bf0eb47c10"/>
